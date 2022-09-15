@@ -1,0 +1,105 @@
+.CardProduct {
+    width: 100%;
+    height: 100%;
+
+    .CardProduct_Container {
+        width: 80%;
+        height: 450px;
+        margin-left: 10%;
+        background: #fafafa;
+
+        .conten {
+            .TT {
+                text-align: center;
+            }
+        }
+
+        .Mains {
+            display: flex;
+            width: 70%;
+            margin-left: 15%;
+
+            .Main-img {
+                // border: 2px solid red;
+                padding-top: 30px;
+                // margin: 0px -60px 0px 150px;
+                text-align: center;
+                border-radius: 5px;
+
+                // background-color: rgb(208, 253, 253);
+                p {
+                    img {
+                        box-shadow: 18px 15px 500px rgba(0, 0, 0, 0.12);
+                        padding: 5px;
+                        width: 250px;
+                        height: 250px;
+                        border-radius: 50%;
+                        // border: 3px solid black;
+                    }
+                }
+
+                .price {
+                    color: rgb(244, 81, 81);
+                    font-size: 20px;
+                }
+            }
+
+            .specifications {
+                margin-left: 20px;
+                width: 62%;
+
+                .name {
+                    font-size: 22px;
+                }
+
+                .KT {
+                    color: rgb(31, 141, 6);
+                }
+
+                .CKTS {
+                    display: flex;
+
+                    .CKT {
+                        padding: 20px;
+
+                        button {
+                            width: 130px;
+                            height: 50px;
+
+                            &:hover {
+                                background: rgb(175, 248, 186);
+                            }
+                        }
+                    }
+                }
+
+                .GC {
+                    textarea {
+                        width: 510px;
+                        height: 50px;
+                    }
+
+                }
+
+                .btn {
+                    text-align: center;
+                    padding-top: 5px;
+
+                    button {
+                        width: 400px;
+                        height: 45px;
+                        border-radius: 1rem;
+                        background-color: rgb(137, 246, 137);
+
+                        &:hover {
+                            background-color: rgb(241, 132, 132);
+                            color: white;
+
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

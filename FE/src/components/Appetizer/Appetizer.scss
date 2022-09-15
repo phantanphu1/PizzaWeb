@@ -1,0 +1,50 @@
+.Appetize-Container {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 360px;
+
+    .image {
+
+        // width: 200px !important;
+        // height: 160px !important;
+
+    }
+
+    .text {
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    .reviews {
+        .review{
+
+        }
+    }
+
+    .price {
+        text-align: center;
+
+        margin-top: -5px;
+        color: rgb(47, 212, 190);
+    }
+
+    .buttton-review {
+        padding-top: 10px;
+
+        .btn {
+            background-color: rgb(137, 246, 137);
+            border-radius: 0.5rem;
+            margin-left: 29px;
+            width: 300px;
+            height: 4vh;
+
+            &:hover {
+                background-color: rgb(241, 132, 132);
+                color: white;
+
+            }
+        }
+    }
+}

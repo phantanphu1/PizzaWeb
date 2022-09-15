@@ -1,0 +1,90 @@
+.Footer-Container {
+    width: 100%;
+    border-top: 2px solid red;
+    // border-bottom: 2px solid red;
+    border-top-right-radius: 4rem;
+    border-top-left-radius: 4rem;
+
+    .Footer {
+        padding: 20px;
+        display: flex;
+        // background-color: rgb(202, 230, 230);
+
+
+        .Footer-conten {
+            width: 30%;
+
+            .Footer-center-icon {
+                display: flex;
+
+                ul {
+                    li {
+                        list-style: none;
+                        margin-left: -20px;
+                        font-size: 14px;
+                    }
+                }
+
+                .iconname {
+                    margin-top: 16px;
+                }
+            }
+
+            .Footer-center2 {
+                margin-left: -35px;
+
+                ul {
+                    li {
+                        list-style: none;
+                    }
+                }
+            }
+
+            .Footer-center3 {
+                margin-left: -35px;
+
+                ul {
+                    li {
+                        list-style: none;
+                    }
+
+                    &:hover {
+                        color: rgb(26, 92, 233);
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .Footer-conten-item {
+                display: flex;
+                margin-left: -20px;
+
+                .social-icon {
+                    ul {
+                        li {
+                            list-style: none;
+
+                            a {
+                                i {
+                                    font-size: 17px;
+                                    margin-left: -20px;
+
+                                    &:hover {
+                                        font-size: 25px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    .design {
+        text-align: center;
+
+    }
+}

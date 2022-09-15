@@ -1,0 +1,55 @@
+const appetizer = [
+    {
+        id: 1,
+        name: "Đùi Gà Tẩm Bột Chiên Giòn",
+        price: "279.000 $",
+        img:"https://www.nhahangquangon.com/wp-content/uploads/2015/11/hqdefault.jpg",
+        review:"Thịt gà chiên bên trong chín mềm và dai ngọt, lớp vỏ chiên giòn nở to và giòn tan,khi ăn cùng với một ít tương ớt sẽ làm món ăn thêm hấp dẫn và đậm vị.",
+        introduce: "Đùi Gà phủ một lớp bột chiên giòn rụm",
+    },
+    {
+        id: 2,
+        name: "Gà Giòn Giòn",
+        price: "199.000 $",
+        img:"https://yt.cdnxbvn.com/medias/uploads/198/198335-ga-chien-bot-aji-quick.jpg",
+        review:"Gà rán vàng ruộm rất bắt mắt, lớp vỏ thì giòn rụm hòa quyện thịt gà mềm ngọt bên trong. Gà rán không cay nên phù hợp cho tất cả các thành viên trong gia đình, đặc biệt là các em nhỏ.",
+        introduce: "Cánh gà được phủ bởi một lớp bột chiên giòn",
+    },
+    {
+        id: 3,
+        name: "Gà Giòn Không Xương",
+        price: "99.000 $",
+        img:"https://massageishealthy.com/wp-content/uploads/2017/11/cach-lam-canh-ga-dui-ga-tam-bot-chien-xu-chien-gion-3.png",
+        review:"Khi cắn một miếng, bạn sẽ cảm nhận được vỏ ngoài giòn rụm, thịt gà bên trong mềm thơm, đậm đà gia vị, chấm cùng một chút tương ớt cay nồng đảm bảo sẽ khiến bạn thích mê.",
+        introduce: "Gà giòn tan với sốt Cocktail thơm ngậy",
+    },
+    // {
+    //     id: 4,
+    //     name: "Cánh Gà Tẩm Bột Chiên Giòn",
+    //     price: "https://i.imgur.com/loleye9.jpg",
+    //     img:"https://yt.cdnxbvn.com/medias/uploads/198/198335-ga-chien-bot-aji-quick.jpg",
+    //     introduce: "Phủ bởi lớp bột đặc biệt tạo nên lớp vỏ giòn dai hấp dẫn",
+    // },
+    // {
+    //     id: 5,
+    //     name: "Cánh Gà Nướng BBQ",
+    //     price: "199.000 $",
+    //     img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVLaScLeLq2DeEeyW7P_hj5f601_57GsM57fzuCvY7dG2fbHrtaC_FI8f1fNDKDSrkwFo&usqp=CAU",
+    //     introduce: "Cánh gà nướng thấm vị với lớp da mỏng giòn",
+    // },
+    // {
+    //     id: 6,
+    //     name: "Khai Vị Tổng Hợp (Cánh Gà Nướng)",
+    //     price: "169.000 $",
+    //     img:"https://massageishealthy.com/wp-content/uploads/2017/11/cach-lam-canh-ga-dui-ga-tam-bot-chien-xu-chien-gion-11.jpg",
+    //     introduce: "Cánh gà BBQ, bánh mì tỏi nướng và khoai tây chiên",
+    // },
+    // {
+    //     id: 7,
+    //     name: "Bánh Phô Mai Xoắn",
+    //     price: "99.000 $",
+    //     img:"https://www.nhahangquangon.com/wp-content/uploads/2015/11/hqdefault.jpg",
+    //     introduce: "Phô mai trắng được nướng với bơ, tỏi và dùng kèm sốt Cocktail",
+    // },
+];
+export default appetizer;
